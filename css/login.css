@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------navbar------------------------ */
+
+.navbar {
+    height: 50px;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background: #091e50;
+}
+
+.icon {
+    padding: 0px;
+}
+
+.icon img {
+    width: 75px;
+    float: left;
+    height: auto;
+    padding-left: 35px;
+}
+
+.active{
+	text-decoration: underline;
+	font-weight: bold;
+}
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.menu ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: #a0c6ec;
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch {
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #e4f1fe;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #a0c6ec;
+    border: 2px solid #e4f1fe;
+    margin-top: 13px;
+    color: #091e50;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ffffff;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+/* ----------------------------END nav------------------------------------------ */
+
+
+/* -------------------------------login------------------------------ */
+
+body {
+    background-image: linear-gradient(135deg, #ecf1f2 10%, #d4dadb 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+}
+
+.box-form {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 12%;
+    margin-right: 12%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 6px #090b6f85;
+}
+
+
+.box-form div {
+    height: auto;
+}
+
+.box-form .left {
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../image/login/loginbg.jpg);
+    overflow: hidden;
+}
+
+.box-form .left .overlay {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: #464545ad;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: unset;
+}
+.fog{
+    font-weight: bold;
+}
+
+.box-form .left .overlay h1 {
+    font-size: 10vmax;
+    line-height: 1;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 25px;
+}
+
+.box-form .left .overlay span p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.box-form .left .overlay span a {
+    background: #3b5998;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 14px 50px;
+    border-radius: 100px;
+    display: inline-block;
+    box-shadow: 0 3px 6px 1px #042d4657;
+}
+
+.box-form .left .overlay span a:last-child {
+    background: #1dcaff;
+    margin-left: 30px;
+}
+
+.box-form .right {
+    padding: 40px;
+    overflow: hidden;
+}
+
+.box-form .right h5 {
+    font-size: 6vmax;
+    line-height: 0;
+    color: #091e50;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+.box-form .right p {
+    font-size: 14px;
+    color: #061f38;
+}
+
+.box-form .right .inputs {
+    overflow: hidden;
+}
+
+.box-form .right input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #091e50;
+}
+
+.box-form .right .remember-me--forget-password {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-form .right .remember-me--forget-password input {
+    margin: 0;
+    margin-right: 7px;
+    width: auto;
+}
+.box-form .right button {
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 4px 20px 0px #000000a6;
+    background-image: linear-gradient(135deg, #a0c6ec 10%, #091e50 100%);
+}
+.box-form .right button:hover {
+    background-image: linear-gradient(135deg, #091e50 10%, #a0c6ec 100%); 
+}
+label {
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+}
+.log{
+    margin-top: 15px;
+}
+/* -------------------------------End login------------------------------ */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------footer----------- */
+
+.footer {
+    background-color: #001138;
+    padding: 70px;
+}
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row {
+    display: flex;
+}
+.container{
+	max-width: 1750px;
+	margin:auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #77799e;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.active1 {
+    padding-left: 8px;
+}
+
+.footer-col ul li a:hover {
+    color: #a0c6ec;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
